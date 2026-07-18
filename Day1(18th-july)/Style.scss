@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100%;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.box h1 {
+  display: flex;
+  overflow: hidden; /* Hide letters while they are below */
+}
+
+.box h1 span {
+  display: inline-block;
+  font-size: 80px;
+}
+
+.loader {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  .loaderbox {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .count {
+      font-size: 4rem;
+    }
+  }
+}
+
+.imagecontainer {
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+  .img {
+    height: 100vh;
+    width: 100%;
+    img {
+      height: 100vh;
+      width: 100%;
+      object-fit: cover;
+    }
+  }
+}
