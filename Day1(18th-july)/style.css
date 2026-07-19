@@ -7,33 +7,11 @@
 body {
   height: 100vh;
   width: 100%;
+  overflow: hidden;
 }
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-.box h1 {
-  display: flex;
-  overflow: hidden; /* Hide letters while they are below */
-}
-
-.box h1 span {
-  display: inline-block;
-  font-size: 80px;
-}
-
-.loader {
-  height: 100vh;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
 .loader .loaderbox {
+  background-color: #000;
   height: 100vh;
   width: 100%;
   display: flex;
@@ -42,22 +20,52 @@ body {
   align-items: center;
 }
 .loader .loaderbox .count {
+  color: #fff;
   font-size: 4rem;
+  font-weight: 600;
+  font-family: sans-serif;
 }
 
-.imagecontainer {
-  height: 100vh;
+.img {
+  height: 100%;
   width: 100%;
   overflow: hidden;
+  position: absolute;
+  top: 0;
+  z-index: -1;
 }
-.imagecontainer .img {
-  height: 100vh;
+.img img {
+  height: 100%;
   width: 100%;
+  scale: 1.2;
+  object-fit: contain;
 }
-.imagecontainer .img img {
-  height: 100vh;
+
+.overlaptext {
+  height: 100%;
   width: 100%;
-  object-fit: cover;
+  color: #b5b5b5;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  padding-left: 5rem;
+  position: absolute;
+  top: 0;
+  z-index: -1;
+}
+.overlaptext .heading h1 {
+  font-size: 8rem;
+  font-weight: 600;
+  font-family: sans-serif;
+}
+.overlaptext .subheading {
+  overflow: hidden;
+}
+.overlaptext .subheading h2 {
+  font-size: 1.4rem;
+  font-weight: 600;
+  font-family: sans-serif;
 }
 
 /*# sourceMappingURL=style.css.map */
