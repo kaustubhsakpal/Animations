@@ -27,5 +27,13 @@ let h1 = document.querySelector(".count");
         scale:1.2,
         duration:1.3,
         ease:"expo.out"
+      },"kaush").from(".overlaptext",{
+        opacity:0,
+        duration:1.2,
+        ease:"expo.out",
+      },"kaush").from(".content",{
+        opacity:0,
+        duration:1.2,
+        ease:"expo.out"
       },"kaush")
   }
