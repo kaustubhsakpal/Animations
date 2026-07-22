@@ -9,6 +9,6 @@ gsap.from("span",{
     stagger:{
         each:0.1,
         from:"random",
-        yoyo:true
     },
+    yoyo:true
 })
