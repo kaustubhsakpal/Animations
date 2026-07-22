@@ -6,5 +6,5 @@ gsap.from("span",{
     scale:1.2,
     duration:1.4,
     ease:"expo.ease.",
-    stagger:true
+    stagger: false
 })
