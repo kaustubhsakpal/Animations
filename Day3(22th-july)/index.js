@@ -14,7 +14,6 @@ scrollTrigger:{
     scrub:true,
     markers:true,
     
-},
-yoyo:true
+}
 })
 
