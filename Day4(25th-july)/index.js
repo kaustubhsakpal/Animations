@@ -5,5 +5,6 @@ gsap.to("h1",{
     x:200,
     duration:1.2,
     delay:0.5,
-    ease:"power.inOut"
+    repeat:-1,
+    ease:"expo.inOut"
 });
