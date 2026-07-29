@@ -15,12 +15,12 @@ width:100%;
     background-color: #1c1c1c;
     margin-top: 1rem;
     overflow: hidden;
-}
-
-h1{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+h1{
     color: aliceblue;
      font-size: 5rem;
      font-weight: 800;
