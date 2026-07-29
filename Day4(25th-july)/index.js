@@ -11,8 +11,8 @@ gsap.from(".h12",{
     yoyo:true
 });
 
-gsap.to(".h11",{
-    x:-500,
+gsap.to("img",{
+    scale:0.7,
 scrollTrigger:{
     trigger:".section2",
     start:"top 80%",
