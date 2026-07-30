@@ -5,14 +5,13 @@ gsap.registerPlugin(ScrollTrigger);
 
 
 gsap.to(".section1",{
-    x:-200,
+    x:-300,
 scrollTrigger:{
     trigger:".section2",
     start:"top 50%",
     end:"top 20%",
     scrub:true,
     markers:true,
-    yoyo:true   
 }
 })
 
