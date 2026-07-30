@@ -3,7 +3,6 @@ import { ScrollTrigger } from "https://cdn.jsdelivr.net/npm/gsap@3.13.0/ScrollTr
 
 gsap.registerPlugin(ScrollTrigger);
 
-const section2=document.querySelector(".section2");
 
 gsap.to(".section1",{
     x:-200,
