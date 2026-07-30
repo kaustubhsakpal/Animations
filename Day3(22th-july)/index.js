@@ -5,7 +5,7 @@ gsap.registerPlugin(ScrollTrigger);
 
 
 gsap.to(".section1",{
-    x:-25000,
+    x:-250,
 scrollTrigger:{
     trigger:".section2",
     start:"top 50%",
