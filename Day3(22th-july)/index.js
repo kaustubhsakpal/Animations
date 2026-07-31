@@ -7,7 +7,9 @@ gsap.registerPlugin(ScrollTrigger);
 gsap.to(".section1",{
  x:200,
  ScrollTrigger:{
-   
+   trigger:"section2",
+   start:"top top",
+   scrub:true
  }
 })
 
