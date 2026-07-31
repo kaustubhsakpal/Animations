@@ -12,7 +12,6 @@ scrollTrigger:{
     end:"top 20%",
     scrub:true,
     markers:true,
-    yoyo:true
 }
 })
 
