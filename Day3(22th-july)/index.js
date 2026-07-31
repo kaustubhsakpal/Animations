@@ -6,5 +6,8 @@ gsap.registerPlugin(ScrollTrigger);
 
 gsap.to(".section1",{
  x:200,
+ ScrollTrigger:{
+   
+ }
 })
 
