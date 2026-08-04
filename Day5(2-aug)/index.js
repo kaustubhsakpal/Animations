@@ -5,6 +5,4 @@ gsap.to(".container span",{
     x: 100,
     delay: 1,
     ease: "power1.inOut",
-    stagger:true,
-    repeat: -1,
 })
