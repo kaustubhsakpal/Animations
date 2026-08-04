@@ -18,11 +18,4 @@ html {
   align-items: center;
   font-size: "13rem";
 }
-span {
-    height: 100%;
-    width: 100%;
-    color: blueviolet;
-    position: relative;
-    gap:2rem;
-    display:inline-block;
-}
+
