@@ -16,7 +16,6 @@ html {
       display: flex;
   justify-content: center;
   align-items: center;
-  font-size: "13rem";
 }
 span {
     height: 100%;
